@@ -1,0 +1,8 @@
+version: '3'
+
+tasks:
+  run:
+    desc: "Runs our intepreter"
+    cmds:
+      - cargo run myprog.el
+    silent: true
